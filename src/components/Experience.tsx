@@ -44,7 +44,7 @@ const Experience = () => {
           </p>
         </div>
 
-        <div className="space-y-4 md:grid md:grid-cols-2 gap-4">
+        <div className="space-y-4 md:space-y-0 md:grid md:grid-cols-2 gap-4">
           {experiences.map((experience, index) => (
             <Card key={index} className="bg-slate-900/50 border-slate-700 w-full hover:border-emerald-400/50 transition-all duration-300 group">
               <CardContent className="p-8">
